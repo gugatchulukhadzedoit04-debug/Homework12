@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Heebo:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.hero-section {
+  font-family: "Poppins", sans-serif;
+  height: 700px;
+  padding: 0px 230px 0px 180px;
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-text,
+.gradient-name {
+  font-size: 58px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  color: #42446e;
+}
+
+.gradient-name {
+  background-image: linear-gradient(to right, #13b0f5, #ca24b4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.profile-pic {
+  border: 9px solid transparent;
+  border-radius: 230px;
+  background: linear-gradient(to bottom, #e70faa, #00c0fd) border-box;
+}
